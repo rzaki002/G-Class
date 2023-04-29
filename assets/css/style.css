@@ -1,0 +1,200 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,500;1,200;1,400;1,500;1,600;1,800&display=swap');
+
+/* end font */
+:root {
+    --primary: #3155E7;
+    --primary-dark: #2045D6;
+    --black: #010101;
+    --gray-1: #788190;
+    --gray-2: #D3D4DB;
+    --white: #FFFFFF;
+}
+
+/* body */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #fefefe;
+}
+
+/* end body */
+/* btn */
+.btn {
+    border-radius: 8px;
+}
+
+.btn-primary,
+.btn-outline-secondary {
+    padding: 12px 20px;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+}
+
+.btn-outline-secondary {
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--gray-2);
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+}
+
+.btn-outline-secondary:focus {
+    background-color: var(--gray-2);
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+}
+
+/* end btn */
+
+/* header */
+.navbar .btn-outline-secondary {
+    border: 1px solid var(--primary);
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 16px;
+}
+
+.navbar {
+    padding: 32px 0;
+}
+
+.nav-link {
+    margin-left: 41px;
+    font-size: 16px;
+    color: var(--gray-1);
+}
+
+.navbar .nav-link.active {
+    font-weight: bold;
+    color: var(--black);
+}
+
+/* end header */
+
+/* section hero */
+section.hero {
+    padding: 80px 0;
+}
+
+section.hero {
+    background-color: #b2b3b93f;
+}
+
+section.hero .text {
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 73px;
+    color: var(--black);
+}
+
+section.hero .btn-outline-secondary {
+    border: 1px solid var(--primary);
+}
+
+.buttons {
+    padding-top: 60px;
+}
+
+.buttons .btn {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+/* end section hero */
+
+/* setup */
+section.setup {
+    padding: 50px 0;
+}
+
+section.setup .imgstarted img{
+    width: 400px;
+    height: 500px;
+    padding-top: -100%;
+    padding-bottom: 50px;
+}
+section .icons img {
+    width: 50px;
+    height: 50px;
+}
+
+section.setup .text-header h3 {
+    font-size: 42px;
+    font-weight: 200;
+    line-height: 48px;
+    color: var(--black);
+}
+
+section.setup .text-header p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--gray-1);
+    padding: 27px 0;
+}
+
+section.setup .icons {
+    padding: 27px 0;
+}
+
+section.setup h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--black);
+    padding-bottom: 18px;
+}
+
+section.setup .desc p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--gray-1);
+    max-width: 284px;
+    margin: 0 auto;
+}
+
+/* end setup */
+
+/* information */
+section.information .text-information {
+    padding: 134px 0;
+}
+
+section.information h5 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--black);
+}
+
+section.information p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: var(--gray-1);
+    padding-top: 20px;
+}
+
+section.information .info-1 {
+    padding: 183px 0;
+}
+
+/* end information */
+
+/* footer */
+
+/* end footer */
