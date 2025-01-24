@@ -62,7 +62,7 @@ Resources
 
 Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
 or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
+ssss
 ***************
 Acknowledgement
 ***************
